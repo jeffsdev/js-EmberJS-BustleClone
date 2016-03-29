@@ -2,10 +2,12 @@
 
 {{#link-to 'index'}}Home{{/link-to}}<br><br>
 
+{{new-article save="save"}} <br>
+<hr>
+
 <ul>
   {{#each model as |article|}}
     {{admin-tile article=article update="update" destroyArticle="destroyArticle"}}
+    <hr>
   {{/each}}
 </ul>
-
-{{new-article save="save"}}
