@@ -9,7 +9,15 @@ export default Ember.Route.extend({
       article.destroyRecord();
       this.transitionTo('admin');
     },
-
+    update(article, params) {
+      Object.keys(params).forEach(function(key) {
+        if(params[key]!==undefined) {
+          article.set(key,params[key]);
+        }
+      });
+      article.save();
+      this.transitionTo('admin');
+    },
     save(params) {
       var newArticle = this.store.createRecord('article', params);
       newArticle.save();

@@ -7,5 +7,6 @@
   {{else}}
     <br><button {{action 'textShow'}}>Show Text</button>
   {{/if}}
+  {{update-article article=article update="update"}}
   <button {{action 'delete' article}}>Delete</button>
 </li>
