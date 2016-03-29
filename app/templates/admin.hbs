@@ -1,0 +1,11 @@
+<h1>Admin Portal</h1>
+
+{{#link-to 'index'}}Home{{/link-to}}<br><br>
+
+<ul>
+  {{#each model as |article|}}
+    {{admin-tile article=article destroyArticle="destroyArticle"}}
+  {{/each}}
+</ul>
+
+{{new-article save="save"}}

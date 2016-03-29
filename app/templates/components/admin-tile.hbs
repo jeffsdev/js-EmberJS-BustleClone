@@ -1,0 +1,11 @@
+<li>
+  Img URL: {{article.image}}<br>
+  Title: {{article.title}}<br>
+  Author: {{article.author}}
+  {{#if isTextShowing }}
+    <p {{action 'textHide'}}>{{article.text}}</p>
+  {{else}}
+    <br><button {{action 'textShow'}}>Show Text</button>
+  {{/if}}
+  <button {{action 'delete' article}}>Delete</button>
+</li>

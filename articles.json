@@ -1,0 +1,23 @@
+{"articles": [
+  {
+    "title": "Dolor sit amet",
+    "author": "Lorem Ipsum",
+    "text": "Aliquam eu, mi aliquam, malesuada turpis lacus. Metus a maecenas elit. Congue erat lorem odio. Vestibulum sed, per purus vestibulum tellus inceptos eu neque, enim adipiscing magna, egestas ad ante libero. Interdum tellus maecenas auctor, nulla id eu praesent montes, donec eget amet, viverra habitant in a nisl qui risus. Donec tempus metus neque elit, pede morbi, in elit consectetuer orci sociosqu libero, sed donec justo sapien, vestibulum nec praesent dapibus vestibulum nonummy. Turpis tellus varius purus pede semper nunc. Aliquam felis aenean pede ultrices praesent diam, in in in, praesent magna consequat sodales ultricies vel, varius et montes, ullamcorper sunt lorem ut felis nam in. Proin vitae, est integer pretium iaculis duis, viverra pede vel.",
+    "tag": "Politics",
+    "image": "http://lorempixel.com/300/300"
+  },
+  {
+    "title": "Vestibulum Nonummy",
+    "author": "Interdum Tellus",
+    "text": "Aliquam eu, mi aliquam, malesuada turpis lacus. Metus a maecenas elit. Congue erat lorem odio. Vestibulum sed, per purus vestibulum tellus inceptos eu neque, enim adipiscing magna, egestas ad ante libero. Interdum tellus maecenas auctor, nulla id eu praesent montes, donec eget amet, viverra habitant in a nisl qui risus. Donec tempus metus neque elit, pede morbi, in elit consectetuer orci sociosqu libero, sed donec justo sapien, vestibulum nec praesent dapibus vestibulum nonummy. Turpis tellus varius purus pede semper nunc. Aliquam felis aenean pede ultrices praesent diam, in in in, praesent magna consequat sodales ultricies vel, varius et montes, ullamcorper sunt lorem ut felis nam in. Proin vitae, est integer pretium iaculis duis, viverra pede vel.",
+    "tag": "Fashion",
+    "image": "http://lorempixel.com/300/300"
+  },
+  {
+    "title": "Ultrices Praesent",
+    "author": "Donec Eget Amet",
+    "text": "Aliquam eu, mi aliquam, malesuada turpis lacus. Metus a maecenas elit. Congue erat lorem odio. Vestibulum sed, per purus vestibulum tellus inceptos eu neque, enim adipiscing magna, egestas ad ante libero. Interdum tellus maecenas auctor, nulla id eu praesent montes, donec eget amet, viverra habitant in a nisl qui risus. Donec tempus metus neque elit, pede morbi, in elit consectetuer orci sociosqu libero, sed donec justo sapien, vestibulum nec praesent dapibus vestibulum nonummy. Turpis tellus varius purus pede semper nunc. Aliquam felis aenean pede ultrices praesent diam, in in in, praesent magna consequat sodales ultricies vel, varius et montes, ullamcorper sunt lorem ut felis nam in. Proin vitae, est integer pretium iaculis duis, viverra pede vel.",
+    "tag": "News",
+    "image": "http://lorempixel.com/300/300"
+  }
+]}

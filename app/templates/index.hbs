@@ -1,0 +1,9 @@
+<h1>Bustle Clone</h1>
+
+{{#link-to 'admin'}}Admin Portal{{/link-to}}<br><br>
+
+<ul>
+  {{#each model as |article|}}
+     {{article-tile article=article}}
+  {{/each}}
+</ul>
