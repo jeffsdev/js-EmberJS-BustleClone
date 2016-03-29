@@ -1,7 +1,11 @@
-<div class="container-fluid">
   <header class = "jumbotron">
-    <h1>{{#link-to 'index'}}Bustle Clone{{/link-to}}</h1>
+    <div class="container">
+      <h1>{{#link-to 'index'}}Bustle Clone{{/link-to}}</h1>
+    </div>
   </header>
+  <div class="container-fluid">
+
+
   <nav class="navbar navbar-default">
     <ul class="nav navbar-nav">
       <li>{{#link-to 'news'}}News{{/link-to}}</li>
@@ -9,11 +13,14 @@
       <li>{{#link-to 'fashion'}}Fashion &amp; Beauty{{/link-to}}</li>
       <li>{{#link-to 'lifestyle'}}Lifestyle{{/link-to}}</li>
       <li>{{#link-to 'books'}}Books{{/link-to}}</li>
-      <li>{{#link-to 'admin'}}Admin Portal{{/link-to}}</li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li class="admin">{{#link-to 'admin'}}Admin Portal{{/link-to}}</li>
     </ul>
   </nav>
-</div>
 
 <div class="container">
   {{outlet}}
+</div>
+
 </div>
