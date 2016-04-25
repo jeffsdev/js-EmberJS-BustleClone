@@ -1,4 +1,4 @@
-# Angular 2 To-Do List
+# Ember 2 Bustle Clone
 ##### March 2016
 ##### By Jeff Seymour
 
