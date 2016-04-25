@@ -13,7 +13,7 @@ export default Ember.Component.extend({
         author: this.get('author'),
         image: this.get('image'),
         text: this.get('text'),
-        tag: this.get('tag')
+        tag: this.get('tag').toLowerCase(),
       };
       this.set('addNewArticle', false);
       this.sendAction('save', params);
