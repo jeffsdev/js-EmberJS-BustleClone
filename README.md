@@ -1,7 +1,13 @@
-# Bustle-clone
+# Angular 2 To-Do List
+##### March 2016
+##### By Jeff Seymour
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+
+## Description
+##### This is a basic clone of Bustle, or a generic news article site.  Allows a user to add, edit, update, and delete articles. Articles can be tagged with a category. Built with Ember2.   
+
+## Technologies Used
+Ember 2, JavaScript, Bower, HTML, CSS, Firebase
 
 ## Prerequisites
 
@@ -49,5 +55,9 @@ Specify what it takes to deploy your app.
 * [ember-cli](http://www.ember-cli.com/)
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)  
 
+## License
+Copyright (c) 2016 Jeff Seymour
+
+This software is licensed under the MIT license.
